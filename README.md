@@ -1,1 +1,1 @@
-# rslang
+# Application for learning english words
