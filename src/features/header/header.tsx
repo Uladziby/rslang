@@ -63,7 +63,7 @@ export function Header() {
     };
   return (
     <>
-      <AppBar position="static">
+      <AppBar position="static"  sx={{ backgroundColor: 'transparent' }} >
         <Container maxWidth="lg">
           <Toolbar>
             <IconButton

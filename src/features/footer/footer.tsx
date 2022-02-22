@@ -21,7 +21,7 @@ export function Footer() {
       <Box
         sx={{
           color: '#fff',
-          backgroundColor: '#1976d2',
+          backgroundColor: 'transparent',
         }}
       >
         <Container maxWidth="lg">

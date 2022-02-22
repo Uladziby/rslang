@@ -185,7 +185,6 @@ export const GameSprint: React.FC = () => {
         flexDirection: 'column',
         justifyContent: 'space-around',
         alignItems: 'center',
-        background: '#2c387e',
         width: '100%',
       }}
     >
