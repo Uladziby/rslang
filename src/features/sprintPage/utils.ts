@@ -137,7 +137,7 @@ export function checkWord(
       userWord.optional.rightRow += 1;
 
       dispatch(incrNewWords());
-      // dispatch(setNewWord());
+      //dispatch(setNewWord());
       dispatch(setUserWords({ word: userWord, user: user }));
     } else if (rightCount === 2) {
       userWord.optional.rightCount += 1;

@@ -40,8 +40,9 @@ const StatisticsPage = () => {
   const [dataStat, setDataStat] = useState({});
   useEffect(() => {
     loadStat(BASE_URL + `users/${USERID}/statistics`, TOKEN).then((data) =>
+    {console.log(data.data)
       setDataStat(data.data)
-    );
+    });
   }, [TOKEN, USERID]);
   return (
     <Container className={styles.mainContainer}>
